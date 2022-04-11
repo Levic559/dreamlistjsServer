@@ -9,4 +9,6 @@ router.post('/findlist',findList)
 router.post('/deletelist/:id',deleteList)
 router.get('/',getList)
 router.put('/updatelist', updateList)
+   
+
 module.exports=router
